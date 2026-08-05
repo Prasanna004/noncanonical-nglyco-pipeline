@@ -324,6 +324,9 @@ This repository contains the scripts used to reproduce the computational analyse
 **Status:** Under Review
 
 ---
+# Data Availability
+
+The raw mass spectrometry datasets reanalyzed in this study are publicly available through the PRIDE Archive under the project identifiers described in the manuscript. This repository provides the scripts and example files required to reproduce the computational workflow. Complete processed outputs are available as supplementary material accompanying the manuscript.
 
 # Citation
 
