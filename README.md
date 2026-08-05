@@ -23,7 +23,7 @@ The workflow includes:
 # Repository Structure
 
 ```
-NonCanonical-NGlyco-Pipeline/
+noncanonical-nglyco-pipeline
 │
 ├── README.md
 ├── LICENSE
@@ -32,25 +32,18 @@ NonCanonical-NGlyco-Pipeline/
 ├── database_generation/
 │   ├── create_JXV_database.py
 │   ├── create_entrapment_database.py
-│   └── README.md
+│   ├── unmodified_proteome.fasta
+│   ├── modified_proteome_JXV.fasta
+│   └── modified_proteome_entrapment.fasta
 │
 ├── post_processing/
 │   ├── filter_pglyco_results.py
-│   ├── human_data_uniprot.xlsx
-│   └── README.md
-│
-├── entrapment_analysis/
-│   ├── entrapment_analysis.py
-│   ├── README.md
-│   └── example_output/
+│   └── human_data_uniprot.xlsx
 │
 └── examples/
     ├── Example.csv
-    ├── Example.xlsx
-    └── README.md
+    └── Example.xlsx
 ```
-
----
 
 # Computational Workflow
 
