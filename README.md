@@ -22,12 +22,11 @@ The workflow includes:
 
 # Repository Structure
 
-```
-noncanonical-nglyco-pipeline
+```text
+noncanonical-nglyco-pipeline/
 │
 ├── README.md
-├── LICENSE
-├── requirements.txt
+├── .gitignore
 │
 ├── database_generation/
 │   ├── create_JXV_database.py
@@ -39,6 +38,9 @@ noncanonical-nglyco-pipeline
 ├── post_processing/
 │   ├── filter_pglyco_results.py
 │   └── human_data_uniprot.xlsx
+│
+├── entrapment_analysis/
+│   └── entrapment_analysis.py
 │
 └── examples/
     ├── Example.csv
@@ -223,10 +225,8 @@ The repository generates:
 
 - Modified J-X-V proteome database
 - Entrapment proteome database
-- Entrapment modification log
 - Processed glycopeptide reports
 - Canonical glycopeptide identifications
-- Non-canonical N-X-C identifications
 - Non-canonical N-X-V identifications
 - Entrapment analysis reports
 
@@ -244,12 +244,6 @@ openpyxl
 ```
 
 Install using:
-
-```bash
-pip install -r requirements.txt
-```
-
-or
 
 ```bash
 pip install pandas openpyxl
