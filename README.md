@@ -1,6 +1,6 @@
 # NonCanonical-NGlyco Pipeline
 
-## Expanding the N-glycoproteome: Identification of novel non-canonical N-glycosylation sites in existing datasets using a bioinformatics approach
+## Expanding the N-glycoproteome: Identification of non-canonical N-glycosylation sites in existing datasets using a bioinformatics approach
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]()
@@ -311,7 +311,7 @@ This repository contains the scripts used to reproduce the computational analyse
 
 # Associated Manuscript
 
-**Expanding the N-glycoproteome: Identification of novel non-canonical N-glycosylation sites in existing datasets using a bioinformatics approach**
+**Expanding the N-glycoproteome: Identification of non-canonical N-glycosylation sites in existing datasets using a bioinformatics approach**
 
 **Journal:** Clinical Proteomics
 
@@ -327,7 +327,7 @@ The raw mass spectrometry datasets reanalyzed in this study are publicly availab
 If you use this repository, please cite the associated manuscript:
 
 > Garapati K., Selvam P.K., Ghose V., *et al.*  
-> **Expanding the N-glycoproteome: Identification of novel non-canonical N-glycosylation sites in existing datasets using a bioinformatics approach.**  
+> **Expanding the N-glycoproteome: Identification of non-canonical N-glycosylation sites in existing datasets using a bioinformatics approach.**  
 > *Clinical Proteomics*. Under review.
 
 ---
