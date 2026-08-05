@@ -6,22 +6,31 @@ This repository contains the Python scripts, reference files, and example data u
 
 # Repository Contents
 
-```
-NonCanonical-NGlyco-Pipeline
-│
-├── create_JXV_database.py
-├── create_entrapment_database.py
-├── filter_pglyco_results.py
-│
-├── human_data_uniprot.xlsx
-├── unmodified_proteome.fasta
-│
-├── Example.csv
-├── Example.xlsx
+NonCanonical-NGlyco-Pipeline/
 │
 ├── README.md
-└── requirements.txt
-```
+├── LICENSE
+├── requirements.txt
+│
+├── database_generation/
+│   ├── create_JXV_database.py
+│   ├── create_entrapment_database.py
+│   └── README.md
+│
+├── post_processing/
+│   ├── filter_pglyco_results.py
+│   ├── human_data_uniprot.xlsx
+│   └── README.md
+│
+├── entrapment_analysis/
+│   ├── entrapment_analysis.py
+│   ├── README.md
+│   └── example_output/
+│
+└── examples/
+    ├── Example.csv
+    ├── Example.xlsx
+    └── README.md
 
 ---
 
