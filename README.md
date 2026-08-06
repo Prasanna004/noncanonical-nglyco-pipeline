@@ -294,6 +294,7 @@ Example input and output files are included in the `examples/` directory.
 | Example.csv | Example pGlyco3.1 search result |
 | Example.xlsx | Example processed output |
 
+The example files were generated from the publicly available **PRIDE dataset PXD042446**, originally reported by **Garapati et al.** in their study describing a complement C4-derived glycopeptide biomarker for PMM2-CDG. The files are included solely to demonstrate the computational workflow implemented in this repository. 
 ---
 
 # Reproducibility
